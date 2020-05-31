@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint *.js",
+    "lint:fix": "eslint --fix *.js",
     "postinstall": "node postinstall.js"
   },
   "repository": {
@@ -32,6 +33,7 @@
     "@typescript-eslint/eslint-plugin": ">= 3"
   },
   "dependencies": {
+    "@masterodin/eslint-config-javascript": "^1.0.0",
     "@typescript-eslint/parser": "^3.0.2"
   },
   "devDependencies": {

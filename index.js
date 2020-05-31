@@ -5,16 +5,14 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   extends: [
-    "eslint:recommended",
+    "@masterodin/eslint-config-javascript",
     "plugin:@typescript-eslint/recommended",
   ],
   rules: {
     "indent": "off",
-    "comma-dangle": ["error", "always-multiline"],
-    "eol-last": ["error", "always"],
     "@typescript-eslint/brace-style": ["error", "stroustrup"],
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/indent": ["error", 2],
-    "@typescript-eslint/semi": ["error"]
+    "@typescript-eslint/semi": ["error"],
   },
 };
