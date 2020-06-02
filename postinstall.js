@@ -18,5 +18,8 @@ if (!fs.existsSync(filePath)) {
       "src/**/*",
       "test/**/*.spec.ts",
     ],
+    exclude: [
+      "node_modules",
+    ],
   }, null, 2) + "\n");
 }
