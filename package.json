@@ -26,19 +26,19 @@
     "access": "public"
   },
   "engines": {
-    "node": ">= 10"
+    "node": ">=10"
   },
   "peerDependencies": {
-    "eslint": ">= 7",
-    "@typescript-eslint/eslint-plugin": ">= 3"
+    "eslint": ">=7",
+    "@typescript-eslint/eslint-plugin": ">=3.6"
   },
   "dependencies": {
-    "@masterodin/eslint-config-javascript": "^1.0.0",
-    "@typescript-eslint/parser": "^3.0.2"
+    "@masterodin/eslint-config-javascript": "^2.0.1",
+    "@typescript-eslint/parser": "^3.6.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.0.2",
-    "eslint": "^7.1.0",
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "eslint": "^7.3.0",
     "typescript": "^3.9.3"
   }
 }
