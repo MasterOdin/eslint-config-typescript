@@ -30,14 +30,15 @@
   },
   "peerDependencies": {
     "eslint": ">=7",
-    "@typescript-eslint/eslint-plugin": ">=3.6"
+    "@typescript-eslint/eslint-plugin": ">=4.0"
   },
   "dependencies": {
     "@masterodin/eslint-config-javascript": "^2.0.1",
-    "@typescript-eslint/parser": "^3.6.0"
+    "@typescript-eslint/parser": "^4.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.0.0",
-    "eslint": "^7.3.0"
+    "eslint": "^7.3.0",
+    "typescript": "^4.1.3"
   }
 }
